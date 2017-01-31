@@ -1,0 +1,26 @@
+<html><head><LINK REL=stylesheet HREF="../style.css" TYPE="text/css">
+</head><body>
+
+<center>
+<APPLET CODE=Plotter.class CODEBASE=. WIDTH="1200" HEIGHT="400">
+<param name="image" value="image0.png"> 
+<param name="data" value="data0.txt"> 
+<param name="label1" value="N1"> 
+<param name="label2" value="N2"> 
+<param name="label3" value="P"> 
+</APPLET>
+</center>
+<br><br>
+The applet has three panels. In the leftmost, the slice of parameter space is shown. You may click within the parameter slice to change the two parameters (<IMG
+ WIDTH="21" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img2.png"
+ ALT="$ s_2$">
+ and <IMG
+ WIDTH="22" HEIGHT="34" ALIGN="MIDDLE" BORDER="0"
+ SRC="img3.png"
+ ALT="$ d_2$">) that vary there.<BR><BR>
+
+When new parameters are chosen, the other two panels will update (be patient). The middle panel shows a time series for the the resource, two prey species (with prey 2 invading), and predator. You may click in this panel to select a particular moment to be highlighted.<BR><BR>
+
+In the third panel, the prey and predator densities are plotted as a three-dimensional trajectory. This plot can be rotated by clicking and dragging. Also, you may press buttons 1-3 to view the dynamics in two dimensions. For example, pressing 2 will show the dynamics of prey 1 versus the predator. 
+</body></html>
