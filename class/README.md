@@ -14,11 +14,11 @@ If you type ``appletviewer demo1.html`` at a command line...
 
 ![](1.png)
 
-The applet is very similar, except this model shows three prey species and a predator (again in violet).
+The version of the applet is very similar, except the new model shows three prey species and a predator (again in violet).
 
 
 If you type ``appletviewer demo2.html`` at a command line...
 
 ![](2.png)
 
-Again, the applet is very similar, with two prey species and a predator (in violet).
+Again, this version of the applet is very similar, with a different model of two prey species and a predator (in violet).
